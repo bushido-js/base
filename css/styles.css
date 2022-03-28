@@ -1,0 +1,156 @@
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+figure,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
+ul[role="list"],
+ol[role="list"] {
+  list-style: none;
+}
+
+/* Set core root defaults */
+html:focus-within {
+  scroll-behavior: smooth;
+}
+
+/* Set core body defaults */
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+}
+
+/* A elements that don't have a class get default styles */
+a:not([class]) {
+  text-decoration-skip-ink: auto;
+}
+
+/* Make images easier to work with */
+img,
+picture {
+  max-width: 100%;
+  display: block;
+}
+
+/* Inherit fonts for inputs and buttons */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Remove all animations and transitions for people that prefer not to see them */
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+   scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Font */
+
+* {
+  font-size: 20px;
+  color: #A2A2A2;
+  font-weight: 400;
+}
+
+/* Basic */
+
+#tag-name {
+  color: black;
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+}
+
+#tag-name-2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.wrapper {
+  margin:30px;
+}
+
+.gallery {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+
+}
+
+.gallery-image{
+  height:300px ;
+  width:350px ;
+  /* border: 2px solid red; */
+  margin: 0px 10px;
+}
+
+.gallery-window {
+  /* border: 1px solid black; */
+  max-height: 400px;
+  max-width: 400px;
+}
+.deskription-list {
+  display:flex;
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+  margin-left:20px;
+}
+
+.deskription-list-functional .deskription-link {
+  color: #4DBF9D;
+}
+
+.deskription-list-functional .deskription-link:hover{
+  color:gray;
+}
+
+.deskription-item {
+  margin-right: 10px;
+}
+
+.deskription-link:hover {
+  color: #4DBF9D;
+}
+
+.deskription-link{
+  text-decoration: none;
+  color: #A2A2A2;
+}
+
+.name-project {
+  margin-left: 20px;
+  font-size: 25px;
+}
+
+
+
+
