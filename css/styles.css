@@ -106,10 +106,12 @@ select {
 }
 
 .gallery-image{
-  height:300px ;
+  height:350px ;
   width:350px ;
   /* border: 2px solid red; */
   margin: 0px 10px;
+  border-radius: 10px;
+  cursor: default;
 }
 
 .gallery-window {
@@ -137,6 +139,10 @@ select {
   margin-right: 10px;
 }
 
+.tech {
+  cursor: default;
+}
+
 .deskription-link:hover {
   color: #4DBF9D;
 }
@@ -146,9 +152,14 @@ select {
   color: #A2A2A2;
 }
 
+.link-function{
+  font-size: 23px;
+}
+
 .name-project {
   margin-left: 20px;
   font-size: 25px;
+  color: #606060;
 }
 
 
