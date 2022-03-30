@@ -82,6 +82,7 @@ select {
 
 /* Basic */
 
+
 #tag-name {
   color: black;
   font-size: 50px;
@@ -99,25 +100,25 @@ select {
 }
 
 .gallery {
-  display:flex;
-  flex-wrap: wrap;
-  justify-content: flex-start;
+  display:grid;
+  grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
 
 }
 
 .gallery-image{
+  /* border: 2px solid red; */
   height:350px ;
   width:350px ;
-  /* border: 2px solid red; */
-  margin: 0px 10px;
   border-radius: 10px;
   cursor: default;
 }
 
 .gallery-window {
   /* border: 1px solid black; */
-  max-height: 400px;
-  max-width: 400px;
+  min-height: 450px;
+  min-width: 350px;
 }
 .deskription-list {
   display:flex;
