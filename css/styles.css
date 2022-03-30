@@ -75,7 +75,7 @@ select {
 /* Font */
 
 * {
-  font-size: 20px;
+  font-size: 23px;
   color: #A2A2A2;
   font-weight: 400;
 }
@@ -144,7 +144,7 @@ select {
 }
 
 .deskription-link:hover {
-  color: #4DBF9D;
+  color: orangered;
 }
 
 .deskription-link{
